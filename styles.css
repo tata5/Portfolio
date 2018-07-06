@@ -1,0 +1,95 @@
+.header {
+  background-color:#fff;
+  font-family: 'Proxima Nova', Georgia, san-seriff;
+  text-align:center;
+  margin-bottom:40px;
+}
+
+hr {
+  color:7d97ad;
+  margin-bottom: 40px;
+}
+
+/*Global Stuff*/
+img {
+  height:auto;
+  max-width: 100%;
+}
+
+.resize-text {
+  font-size:6vw;
+}
+
+.featured-text {
+  font-size:4vw;
+}
+/*End Global Ruling*/
+
+.featured-title, .featured-project {
+  color:#2d3c49;
+  text-align:center;
+}
+
+.featured-work {
+  color:#2d3c49;
+  margin-top:40px 0;
+}
+
+.featured-project {
+  margin:25px 0;
+}
+
+.tm-headline {
+  color:#2d3c49;
+}
+
+@media screen and (min-width: 500px) {
+  .resize-text {
+    font-size:6vw;
+  }
+
+  .featured-text {
+    font-size:4vw;
+  }
+  .featured-image {
+    width:100%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .header {
+    justify-content: space-between;
+    margin: 0 auto 40px;
+    text-align:left;
+  }
+  .header-tm {
+    justify-content: space-between;
+    margin: 0 auto 40px;
+    text-align:left;
+  }
+  .tm-headline {
+    text-align:right;
+  }
+  .featured-work {
+    display:flex;
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  .featured-project {
+    margin: 20px 20px 20px 0;
+  }
+  .featured-project:last-child {
+    margin-right:0;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .resize-text {
+    font-size:4vw;
+  }
+
+  .featured-text {
+    font-size:2vw;
+  }
+  }
+}

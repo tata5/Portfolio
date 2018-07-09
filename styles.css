@@ -1,58 +1,84 @@
 .header {
-  background-color:#fff;
+  background-color: #fff;
   font-family: 'Proxima Nova', Georgia, san-seriff;
-  text-align:center;
-  margin-bottom:40px;
+  float: left;
+  margin: 15px auto 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.header-tm {
+  width: 33.3%;
+  float: left;
+  box-sizing: border-box;
 }
 
 hr {
-  color:7d97ad;
+  color: #7d97ad;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 /*Global Stuff*/
 img {
-  height:auto;
+  height: auto;
   max-width: 100%;
 }
 
+.header-tm img {
+  display: block;
+  height: auto;
+  padding: 2px;
+  width: 160px;
+}
+
+.tm-headline {
+  float: left;
+  width: 66.6666%
+}
+
 .resize-text {
-  font-size:6vw;
+  font-size: 6vw;
+}
+
+.header-name.resizer-text {
+  margin-top: 0;
 }
 
 .featured-text {
-  font-size:4vw;
+  font-size: 4vw;
 }
 /*End Global Ruling*/
 
 .featured-title, .featured-project {
-  color:#2d3c49;
-  text-align:center;
+  color: #2d3c49;
+  text-align: center;
 }
 
 .featured-work {
-  color:#2d3c49;
-  margin-top:40px 0;
+  color: #2d3c49;
+  margin-top: 40px;
 }
 
 .featured-project {
-  margin:25px 0;
+  margin: 25px 0;
 }
 
 .tm-headline {
-  color:#2d3c49;
+  color: #2d3c49;
 }
 
 @media screen and (min-width: 500px) {
   .resize-text {
-    font-size:6vw;
+    font-size: 6vw;
   }
 
   .featured-text {
-    font-size:4vw;
+    font-size: 4vw;
   }
   .featured-image {
-    width:100%;
+    width: 100%;
   }
 }
 
@@ -60,18 +86,18 @@ img {
   .header {
     justify-content: space-between;
     margin: 0 auto 40px;
-    text-align:left;
+    text-align: left;
   }
   .header-tm {
     justify-content: space-between;
     margin: 0 auto 40px;
-    text-align:left;
+    text-align: left;
   }
   .tm-headline {
-    text-align:right;
+    text-align: right;
   }
   .featured-work {
-    display:flex;
+    display: flex;
     margin: 0 auto;
     max-width: 1300px;
   }
@@ -79,17 +105,16 @@ img {
     margin: 20px 20px 20px 0;
   }
   .featured-project:last-child {
-    margin-right:0;
+    margin-right: 0;
   }
 }
 
 @media screen and (min-width: 1250px) {
   .resize-text {
-    font-size:4vw;
+    font-size: 4vw;
   }
 
   .featured-text {
-    font-size:2vw;
-  }
+    font-size: 2vw;
   }
 }
